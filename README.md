@@ -5,10 +5,10 @@ Simulink Toolbox for Real-time Virtual Character Control
 
 ## Installation ##
 
-We install the library in `%USERPROFILE%\Documents\MATLAB\VCTlbx`
+We install the library in `%USERPROFILE%\Documents\MATLAB\VCSimulinkTlbx`
 
 For the library to load you have to add 
-    addpath %USERPROFILE%\Documents\MATLAB\VHlibrary
+    addpath '<%USERPROFILE%>\Documents\MATLAB\VCSimulinkTlbx' %use the full path e.g. c:\users\ulysses\documents\matlab\VCSimulinkTlbx
 to the file
     startup.m
 in `%USERPROFILE%\Documents\MATLAB`
