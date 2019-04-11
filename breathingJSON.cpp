@@ -107,7 +107,7 @@
 #define NPARAMS               1
 /* Parameter 0 */
 #define PARAMETER_0_NAME      charname
-#define PARAMETER_0_DTYPE     real_T
+#define PARAMETER_0_DTYPE     real_T[256]
 #define PARAMETER_0_COMPLEX   COMPLEX_NO
 
 #define SAMPLE_TIME_0         INHERITED_SAMPLE_TIME

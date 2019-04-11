@@ -8,3 +8,5 @@ call "%MATLAB_DIR%\bin\mex.bat" %FLAGS% pawnPos.c pawnPos_wrapper.c
 call "%MATLAB_DIR%\bin\mex.bat" %FLAGS% AUsMaleBML.cpp AUsMaleBML_wrapper.cpp
 call "%MATLAB_DIR%\bin\mex.bat" %FLAGS% AUsFemaleBML.cpp AUsFemaleBML_wrapper.cpp
 call "%MATLAB_DIR%\bin\mex.bat" %FLAGS% breathingJSON.cpp breathingJSON_wrapper.cpp
+
+pause
