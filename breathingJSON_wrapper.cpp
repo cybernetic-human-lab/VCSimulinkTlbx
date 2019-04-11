@@ -47,14 +47,14 @@ void breathingJSON_Outputs_wrapper(const real_T *thx,
 
      double yaw = 0;
      double roll = 0;
-     double pitch = *neck;
+     double pitch = *neck; 
 
      double t0 = std::cos(yaw * 0.5f);
      double t1 = std::sin(yaw * 0.5f);
-     double t2 = std::cos(roll * 0.5f);
-     double t3 = std::sin(roll * 0.5f);
-     double t4 = std::cos(pitch * 0.5f);
-     double t5 = std::sin(pitch * 0.5f);
+     double t2 = std::cos(pitch * 0.5f);
+     double t3 = std::sin(pitch * 0.5f);
+     double t4 = std::cos(roll * 0.5f);
+     double t5 = std::sin(roll * 0.5f);
 
      double w = t0 * t2 * t4 + t1 * t3 * t5;
      double x = t0 * t3 * t4 - t1 * t2 * t5;
