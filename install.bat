@@ -14,3 +14,4 @@ copy gazeString.mexw32 %INSTALL_DIR%
 copy faceString.mexw32 %INSTALL_DIR%
 copy AUsMaleBML.mexw32   %INSTALL_DIR%
 copy AUsFemaleBML.mexw32 %INSTALL_DIR%
+copy breathingJSON.mexw32 %INSTALL_DIR%
