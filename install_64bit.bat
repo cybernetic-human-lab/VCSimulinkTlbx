@@ -12,6 +12,7 @@ copy slblocks.m        %INSTALL_DIR%
 copy pawnPos.mexw64    %INSTALL_DIR%
 copy gazeString.mexw64 %INSTALL_DIR%
 copy faceString.mexw64 %INSTALL_DIR%
+copy faceStringCHL.mexw64 %INSTALL_DIR%
 copy AUsMaleBML.mexw64   %INSTALL_DIR%
 copy AUsFemaleBML.mexw64 %INSTALL_DIR%
 copy breathingJSON.mexw64 %INSTALL_DIR%
