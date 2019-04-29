@@ -1,4 +1,4 @@
 function blkStruct = slblocks
  Browser.Library = 'VCTlbx'; 
- Browser.Name = 'Virtual Character Toolbox'; 
+ Browser.Name = 'CHL Toolbox'; 
  blkStruct.Browser = Browser;
